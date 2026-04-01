@@ -26,9 +26,9 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/netscout.git
-cd netscout
-python3 netscout.py --target 192.168.1.0/24 --scan all
+git clone https://github.com/yourusername/NET_Kitten.git
+cd NET_Kitten
+python3 NET_Kitten.py --target 192.168.1.0/24 --scan all
 ```
 
 > ⚠️ **Legal Notice** — Only use NETSCOUT on networks and systems you own or have explicit written permission to test. Unauthorized scanning is illegal.
@@ -38,7 +38,7 @@ python3 netscout.py --target 192.168.1.0/24 --scan all
 ## Usage
 
 ```
-python3 netscout.py --target <IP or CIDR> [options]
+python3 NET_Kitten.py --target <IP or CIDR> [options]
 ```
 
 | Flag | Description | Default |
@@ -53,19 +53,19 @@ python3 netscout.py --target <IP or CIDR> [options]
 
 ```bash
 # Scan a single host (all modes)
-python3 netscout.py --target 192.168.1.1
+python3 NET_Kitten.py --target 192.168.1.1
 
 # Ping sweep only on a /24 subnet
-python3 netscout.py --target 10.0.0.0/24 --scan ping
+python3 NEET_Kitten.py --target 10.0.0.0/24 --scan ping
 
 # Port scan with custom range and save report
-python3 netscout.py --target 192.168.1.100 --scan ports --ports 1-65535 --output report.txt
+python3 NET_Kiten.py --target 192.168.1.100 --scan ports --ports 1-65535 --output report.txt
 
 # Check specific ports only
-python3 netscout.py --target 192.168.1.1 --ports 22,80,443,3306,8080
+python3 NET_Kiten.py --target 192.168.1.1 --ports 22,80,443,3306,8080
 
 # Fast scan with lower timeout
-python3 netscout.py --target 192.168.1.0/24 --timeout 0.5
+python3 NET_Kiten.py --target 192.168.1.0/24 --timeout 0.5
 ```
 
 ---
@@ -84,8 +84,8 @@ python3 netscout.py --target 192.168.1.0/24 --timeout 0.5
 ## Project Structure
 
 ```
-netscout/
-├── netscout.py          # Entry point & CLI argument parser
+NET_Kiten/
+├── NET_Kiten.py          # Entry point & CLI argument parser
 ├── modules/
 │   ├── __init__.py      # Package initializer
 │   ├── ping.py          # Parallel ping sweep engine
