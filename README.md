@@ -129,7 +129,7 @@ Formats results with ANSI color codes for terminal output. Strips color codes wh
 
 Built as a hands-on learning project in network security fundamentals.
 
-**[Il tuo nome]** — [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+**Matteo Adorni** — [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
 
 ---
 
