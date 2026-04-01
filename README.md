@@ -31,7 +31,7 @@ cd NET_Kitten
 python3 NET_Kitten.py --target 192.168.1.0/24 --scan all
 ```
 
-> ⚠️ **Legal Notice** — Only use NETSCOUT on networks and systems you own or have explicit written permission to test. Unauthorized scanning is illegal.
+> ⚠️ **Legal Notice** — Only use NET Kiten on networks and systems you own or have explicit written permission to test. Unauthorized scanning is illegal.
 
 ---
 
