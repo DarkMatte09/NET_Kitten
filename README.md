@@ -23,7 +23,7 @@
 
 ---
 
-## Quick Start
+## Quick Start 🚀
 
 ```bash
 git clone https://github.com/yourusername/NET_Kitten.git
