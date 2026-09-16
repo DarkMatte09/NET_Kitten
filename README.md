@@ -98,7 +98,7 @@ NET_Kiten/
 
 ---
 
-## How It Works
+## How It Works 🚀
 
 ### Ping Sweep
 Sends ICMP echo requests using the system `ping` binary via `subprocess`. Uses thread pools to scan up to 50 hosts simultaneously, dramatically reducing total scan time vs sequential execution.
